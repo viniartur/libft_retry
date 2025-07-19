@@ -6,7 +6,7 @@
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 19:29:11 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/18 19:29:21 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/19 19:07:34 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,3 +73,36 @@ char	**ft_split(char const *s, char c)
 	split[j] = 0;
 	return (split);
 }
+// size_t	ft_strlen(const char *s)
+// {
+// 	size_t	n;
+
+// 	n = 0;
+// 	while (s[n] != '\0')
+// 		n++;
+// 	return (n);
+// }
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	char	**result;
+// 	int		i;
+
+// 	result = ft_split("Ola,mundo,teste", ',');
+// 	if (!result)
+// 	{
+// 		printf("Erro ao executar ft_split\n");
+// 		return (1);
+// 	}
+
+// 	i = 0;
+// 	while (result[i])
+// 	{
+// 		printf("Substring[%d]: %s\n", i, result[i]);
+// 		free(result[i]);
+// 		i++;
+// 	}
+// 	free(result); // libera o array principal
+
+// 	return (0);
+// }

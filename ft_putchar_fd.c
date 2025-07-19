@@ -6,7 +6,7 @@
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 19:24:22 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/18 19:24:50 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/19 18:41:07 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,7 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
+// int main(void )
+// {
+// 	ft_putchar_fd('c', 1);
+// }

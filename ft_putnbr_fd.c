@@ -6,7 +6,7 @@
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 20:30:23 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/18 20:31:45 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/19 18:51:00 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,10 @@ void	ft_putnbr_fd(int n, int fd)
 		write(fd, &i, 1);
 	}
 }
+// int main()
+// {
+// 	ft_putnbr_fd(20, 2);
+// 	ft_putnbr_fd(10, 1);
+
+// 	return(0);
+// }

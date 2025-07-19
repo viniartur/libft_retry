@@ -6,7 +6,7 @@
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 19:20:13 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/18 19:57:51 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/19 19:14:28 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,27 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i + j] = '\0';
 	return (str);
 }
+// size_t	ft_strlen(const char *s)
+// {
+// 	size_t	n;
+
+// 	n = 0;
+// 	while (s[n] != '\0')
+// 		n++;
+// 	return (n);
+// }
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	char	*resultado;
+
+// 	resultado = ft_strjoin("Olá, ", "mundo!");
+// 	if (!resultado)
+// 	{
+// 		printf("Falha na alocação de memória\n");
+// 		return (1);
+// 	}
+// 	printf("String concatenada: %s\n", resultado);
+// 	free(resultado);
+// 	return (0);
+// }
