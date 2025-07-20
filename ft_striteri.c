@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 19:23:51 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/19 19:12:16 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/20 10:51:26 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,6 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 // int	main(void)
 // {
 // 	char	str[] = "abcd";
-
 // 	ft_striteri(str, print_char_index);
-
 // 	return (0);
 // }

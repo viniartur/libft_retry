@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 14:15:32 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/18 19:49:24 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/20 10:51:07 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,16 +28,17 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-// #include "libft.h"
-
-// int	ft_strncmp(const char *s1, const char *s2, size_t n)
+// #include <stdio.h>
+// #include <string.h> 
+// int main(void)
 // {
-// 	size_t	i;
-
-// 	if (n == 0)
-// 		return (0);
-// 	i = 0;
-// 	while (s1[i] != '\0' && s2[i] != '\0' && s1[i] == s2[i] && i < n - 1)
-// 		i++;
-// 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
+//     char *s1 = "teste";
+//     char *s2 = "testando";
+//     char *s3 = "teste";
+//     printf("%d\n", ft_strncmp(s1, s2, 5));
+//     printf("%d\n", ft_strncmp(s1, s3, 5));
+//     printf("%d\n", ft_strncmp(s1, s2, 3));
+//     printf("%d\n", ft_strncmp("abc", "abd", 3));
+//     printf("%d\n", ft_strncmp("abc", "abc", 0));
+//     return (0);
 // }

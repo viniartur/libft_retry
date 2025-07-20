@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 16:46:25 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/19 19:09:29 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/20 10:36:24 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,10 @@ char	*ft_strchr(const char *s, int c)
 // {
 // 	const char	*str = "Hello, world!";
 // 	char		*result;
-
 // 	result = ft_strchr(str, 'o');
-
 // 	if (result)
 // 		printf("Primeira ocorrência encontrada: %s\n", result);
 // 	else
 // 		printf("Caractere não encontrado.\n");
-
 // 	return (0);
 // }

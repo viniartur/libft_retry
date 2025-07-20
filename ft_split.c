@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 19:29:11 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/19 19:07:34 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/20 10:36:08 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,6 @@ char	**ft_split(char const *s, char c)
 // size_t	ft_strlen(const char *s)
 // {
 // 	size_t	n;
-
 // 	n = 0;
 // 	while (s[n] != '\0')
 // 		n++;
@@ -87,14 +86,12 @@ char	**ft_split(char const *s, char c)
 // {
 // 	char	**result;
 // 	int		i;
-
 // 	result = ft_split("Ola,mundo,teste", ',');
 // 	if (!result)
 // 	{
 // 		printf("Erro ao executar ft_split\n");
 // 		return (1);
 // 	}
-
 // 	i = 0;
 // 	while (result[i])
 // 	{
@@ -102,7 +99,6 @@ char	**ft_split(char const *s, char c)
 // 		free(result[i]);
 // 		i++;
 // 	}
-// 	free(result); // libera o array principal
-
+// 	free(result);
 // 	return (0);
 // }

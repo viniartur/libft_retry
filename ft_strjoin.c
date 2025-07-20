@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 19:20:13 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/19 19:14:28 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/20 10:37:13 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 // size_t	ft_strlen(const char *s)
 // {
 // 	size_t	n;
-
 // 	n = 0;
 // 	while (s[n] != '\0')
 // 		n++;
@@ -51,7 +50,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 // int	main(void)
 // {
 // 	char	*resultado;
-
 // 	resultado = ft_strjoin("Olá, ", "mundo!");
 // 	if (!resultado)
 // 	{

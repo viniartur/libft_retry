@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 13:34:04 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/18 13:56:27 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/20 10:41:12 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,16 @@ size_t	ft_strlen(const char *s)
 		n++;
 	return (n);
 }
-// ft_strlen  | Calcula o comprimento de uma string (sem contar o `\0`). |
+// #include <string.h>
+// #include <stdio.h>
+// int main(void)
+// {
+//     char *str1 = "Ola Mundo!";
+//     char *str2 = "";
+//     char *str3 = "42 Sao Paulo";
+
+//     printf("'%s': %zu\n", str1, ft_strlen(str1));
+//     printf("'%s': %zu\n", str2, ft_strlen(str2));
+//     printf("'%s': %zu\n", str3, ft_strlen(str3));
+//     return (0);
+// } 

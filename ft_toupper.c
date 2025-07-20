@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 13:34:59 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/25 23:42:51 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/20 11:12:39 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,4 +18,15 @@ int	ft_toupper(int c)
 		c -= 32;
 	return (c);
 }
-// ft_toupper Converte letra minúscula para maiúscula
+// #include <stdio.h>
+// #include <ctype.h>
+// int main(void)
+// {
+//     printf("%c -> %c\n", 'a', ft_toupper('a'));
+//     printf("%c -> %c\n", 'z', ft_toupper('z'));
+//     printf("%c -> %c\n", 'A', ft_toupper('A'));
+//     printf("%c -> %c\n", 'Z', ft_toupper('Z'));
+//     printf("%c -> %c\n", '5', ft_toupper('5'));
+//     printf("%c -> %c\n", '@', ft_toupper('@'));
+//     return (0);
+// }

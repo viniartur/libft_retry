@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/24 14:32:14 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/24 14:42:11 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/20 10:53:16 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,5 +40,27 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-
-// https://man.freebsd.org/cgi/man.cgi?query=strnstr
+// #include <stdio.h>
+// #include <string.h>
+// int main(void)
+// {
+//     char *haystack = "hello world";
+//     char *needle1 = "world";
+//     char *needle2 = "xyz";
+//     char *needle3 = "hello";
+//     char *needle4 = "";
+//     char *needle5 = "o w";
+//     printf("'%s' em '%s' (len 11): %s\n", needle1, haystack,
+//         ft_strnstr(haystack, needle1, 11));
+//     printf("'%s' em '%s' (len 11): %s\n", needle2, haystack,
+//         ft_strnstr(haystack, needle2, 11));
+//     printf("'%s' em '%s' (len 5): %s\n", needle3, haystack,
+//         ft_strnstr(haystack, needle3, 5));
+//     printf("'%s' em '%s' (len 11): %s\n", needle4, haystack,
+//         ft_strnstr(haystack, needle4, 11));
+//     printf("'%s' em '%s' (len 7): %s\n", needle5, haystack,
+//         ft_strnstr(haystack, needle5, 7));
+//     printf("'%s' em '%s' (len 6): %s\n", needle5, haystack,
+//         ft_strnstr(haystack, needle5, 6));
+//     return (0);
+// }
