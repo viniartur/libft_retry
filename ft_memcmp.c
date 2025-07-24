@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 20:08:33 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/19 16:57:36 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/20 11:41:37 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,19 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+// void	*ft_memchr(const void *s, int c, size_t n)
+// {
+// 	size_t a;
+
+// 	a = 0;
+// 	while (a < n)
+// 	{
+// 		if (((unsigned char *)s)[a] == (unsigned char)c)
+// 			return (((void *)&((unsigned char *)s)[a]));
+// 		a += 1;
+// 	}
+// 	return (NULL);
+// }
 // #include <stdio.h>
 // #include <string.h>
 // int main(void)

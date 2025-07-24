@@ -6,14 +6,13 @@
 /*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 13:55:25 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/20 11:23:12 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/23 21:21:11 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
 

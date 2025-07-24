@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 15:28:12 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/19 18:39:58 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/20 11:30:45 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,15 @@ void	*ft_memset(void *dest, int c, size_t	len)
 	}
 	return (ptr);
 }
+// void	*ft_memset(void *dst, int src, size_t len)
+// {
+// 	unsigned char *dst_cpy;
+
+// 	dst_cpy = (unsigned char*)dst;
+// 	while (len--)
+// 		*dst_cpy++ = (unsigned char)src;
+// 	return (dst);
+// }
 // #include <stdio.h>
 // int main()
 // {
