@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 23:08:33 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/19 18:32:11 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/28 20:41:43 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,21 +14,16 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	size_t	i;
-	char	*de;
-	char	*sr;
+	unsigned char		*pdest;
+	const unsigned char	*psrc;
 
-	i = 0;
-	de = (char *)dest;
-	sr = (char *)src;
-	if (!src && !dest)
-		return (0);
-	while (i < n)
-	{
-		de[i] = sr[i];
-		i++;
-	}
-	return (de);
+	if (!dest && !src)
+		return (NULL);
+	pdest = (unsigned char *)dest;
+	psrc = (const unsigned char *)src;
+	while (n--)
+		*pdest++ = *psrc++;
+	return (dest);
 }
 // #include <stdio.h>
 // #include <string.h>

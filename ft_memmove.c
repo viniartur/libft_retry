@@ -3,40 +3,60 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
+/*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 15:25:08 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/19 18:37:29 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/28 20:45:37 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dst, const void *src, size_t n)
+void	*ft_memmove(void *dest, const void *src, size_t n)
 {
-	char	*ptr_d;
-	char	*ptr_s;
-	int		i;
-
-	ptr_d = (char *)dst;
-	ptr_s = (char *)src;
-	if (!src && !dst)
-		return (0);
-	if (src == dst)
-		return (dst);
-	if (dst > src)
+	if (dest > src)
 	{
-		i = n;
-		while (i)
-		{
-			ptr_d[i - 1] = ptr_s[i - 1];
-			i--;
-		}
+		while (n--)
+			((unsigned char *)dest)[n] = ((unsigned const char *)src)[n];
 	}
 	else
-		ft_memcpy(dst, src, n);
-	return (ptr_d);
+		ft_memcpy(dest, src, n);
+	return (dest);
 }
+// void *ft_memmove(void *dst, const void *src, size_t n)
+// {
+//     unsigned char       *d;
+//     const unsigned char *s;
+
+//     if (n == 0)
+//         return (dst);
+
+//     d = (unsigned char *)dst;
+//     s = (const unsigned char *)src;
+
+//     if (d < s)
+//     {
+//         while (n--)
+//         {
+//             *d = *s;
+//             d++;
+//             s++;
+//         }
+//     }
+//     else
+//     {
+//         d += (n - 1);
+//         s += (n - 1);
+
+//         while (n--)
+//         {
+//             *d = *s;
+//             d--;
+//             s--;
+//         }
+//     }
+//     return (dst);
+// }
 // void	*ft_memcpy(void *dest, const void *src, size_t n)
 // {
 // 	size_t	i;

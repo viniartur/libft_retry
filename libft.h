@@ -6,7 +6,7 @@
 /*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 13:55:25 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/23 21:21:11 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/24 18:33:51 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,7 +96,6 @@ char				*ft_strjoin(char const *s1, char const *s2);
 char				*ft_strtrim(char const *s1, char const *set);
 char				*ft_itoa(int n);
 char				*ft_strdup(const char *s1);
-char				*ft_substr(const char *s, unsigned int start, size_t len);
 char				*ft_substr(const char *s, unsigned int start, size_t len);
 char				**ft_split(char const *str, char c);
 

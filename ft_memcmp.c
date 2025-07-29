@@ -6,26 +6,25 @@
 /*   By: vvieira <viniciusarturvieira@proton.me>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 20:08:33 by vvieira           #+#    #+#             */
-/*   Updated: 2025/07/20 11:41:37 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/07/28 20:44:03 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memchr(const void *s, int c, size_t n)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	unsigned char	*ptr;
-	size_t			i;
+	const unsigned char	*p1;
+	const unsigned char	*p2;
 
-	ptr = (unsigned char *)s;
-	i = 0;
-	while (i < n)
+	p1 = (const unsigned char *)s1;
+	p2 = (const unsigned char *)s2;
+	while (n--)
 	{
-		if (*(ptr + i) == (unsigned char)c)
-			return (ptr + i);
-		i++;
+		if (*p1++ != *p2++)
+			return (*(--p1) - *(--p2));
 	}
-	return (NULL);
+	return (0);
 }
 // void	*ft_memchr(const void *s, int c, size_t n)
 // {
