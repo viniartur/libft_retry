@@ -1,16 +1,9 @@
-Visão Geral
-Libft é o meu primeiro grande projeto na 42 São Paulo, focado em recriar um conjunto de funções da biblioteca padrão C. O objetivo é aprimorar a compreensão dos conceitos fundamentais da linguagem, como manipulação de memória, strings e estruturas de dados, tudo isso sem usar as funções originais. Esta biblioteca serve como um ponto de partida para todos os meus projetos futuros na 42.
+Libft - Uma Biblioteca de Funções Pessoais
+## Visão Geral do Projeto
+O projeto Libft é a sua primeira grande jornada no currículo da 42, focado na recriação de um conjunto de funções da biblioteca padrão C. O objetivo é aprofundar a compreensão de conceitos essenciais da linguagem, como manipulação de memória, strings e estruturas de dados, servindo como uma base fundamental para os próximos projetos.
 
-Funções Incluídas
-A Libft está dividida em três partes principais:
-
-Funções Libc: Recriações de funções padrão, como strlen, atoi e memset.
-
-Funções Adicionais: Funções úteis que não estão na biblioteca padrão C.
-
-Funções de Bônus: Funções para manipulação de listas encadeadas.
-
-Aqui está uma prévia das funções que você pode encontrar na biblioteca:
+## Funções Inclusas
+Esta biblioteca é organizada em três categorias principais, cobrindo as funções da Libc, funções adicionais e funções de bônus para listas encadeadas. Abaixo, uma amostra das funções disponíveis:
 
 ft_isalpha
 
@@ -54,15 +47,15 @@ ft_strnstr
 
 ft_atoi
 
-🛠️ Como Usar
-Para usar as funções da Libft no seu projeto, siga os passos abaixo:
+## Como Usar
+Para integrar a Libft no seu projeto, siga os passos abaixo:
 
-Clone o repositório:
+Clone o repositório para a sua máquina:
 
 Bash
 
 git clone https://github.com/viniartur/libft_retry.git
-Navegue até o diretório da libft_retry e compile a biblioteca com o Makefile:
+No diretório do projeto, execute o make para compilar a biblioteca estática:
 
 Bash
 
@@ -73,10 +66,7 @@ Inclua o cabeçalho libft.h no seu código:
 C
 
 #include "libft.h"
-Compile seu arquivo com a biblioteca estática (libft.a):
+Compile o seu arquivo-fonte com a biblioteca libft.a vinculada:
 
 Bash
-
-gcc your_file.c libft.a -o your_program
-👤 Autor
-[Seu Nome] - Link para o seu perfil no GitHub
+Make
